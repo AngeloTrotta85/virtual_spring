@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for libvirtual-spring
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep --make-so -I../../inet/src -L../../inet/out/$$\(CONFIGNAME\)/src -lINET -KINET_PROJ=../../inet
+#  opp_makemake -f --deep --make-so -I/home/angelo/Programs/omnetpp-5.0/samples/inet/src -L/home/angelo/Programs/omnetpp-5.0/samples/inet/out/$$\(CONFIGNAME\)/src -lINET -KINET_PROJ=/home/angelo/Programs/omnetpp-5.0/samples/inet
 #
 
 # Name of target to be created (-o option)
@@ -10,7 +10,7 @@ TARGET = libvirtual-spring$(SHARED_LIB_SUFFIX)
 
 # C++ include paths (with -I)
 INCLUDE_PATH = \
-    -I../../inet/src \
+    -I$(INET_PROJ)/src \
     -I. \
     -Iinet \
     -Iinet/applications \
@@ -22,8 +22,8 @@ INCLUDE_PATH = \
 EXTRA_OBJS =
 
 # Additional libraries (-L, -l options)
-LIBS = -L../../inet/out/$(CONFIGNAME)/src  -lINET
-LIBS += -Wl,-rpath,`abspath ../../inet/out/$(CONFIGNAME)/src`
+LIBS = -L$(INET_PROJ)/out/$(CONFIGNAME)/src  -lINET
+LIBS += -Wl,-rpath,`abspath $(INET_PROJ)/out/$(CONFIGNAME)/src`
 
 # Output directory
 PROJECT_OUTPUT_DIR = ../out
@@ -40,7 +40,7 @@ MSGFILES =
 SMFILES =
 
 # Other makefile variables (-K)
-INET_PROJ=../../inet
+INET_PROJ=/home/angelo/Programs/omnetpp-5.0/samples/inet
 
 #------------------------------------------------------------------------------
 
