@@ -1,0 +1,547 @@
+file 21084 1462454015                                           
+version 2
+run General-0-20160505-15:12:35-11227
+attr configname General
+attr datetime 20160505-15:12:35
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network Net80211test
+attr processid 11227
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.constraintAreaMaxX 600m
+param **.constraintAreaMaxY 400m
+param **.constraintAreaMaxZ 0m
+param **.constraintAreaMinX 0m
+param **.constraintAreaMinY 0m
+param **.constraintAreaMinZ 0m
+param **.host*.mobility.initFromDisplayString false
+param **.host*.mobility.updateInterval 100ms
+param **.host*.mobilityType "\"VirtualSpringMobility\""
+param **.wlan[*].bitrate 2Mbps
+param **.wlan[*].mac.address "\"auto\""
+param **.wlan[*].mac.cwMinBroadcast 31
+param **.wlan[*].mac.cwMinData 7
+param **.wlan[*].mac.maxQueueSize 14
+param **.wlan[*].mac.retryLimit 7
+param **.wlan[*].mac.rtsThresholdBytes 3000B
+param **.wlan[*].mgmt.frameCapacity 10
+param **.wlan[*].radio.receiver.sensitivity -85dBm
+param **.wlan[*].radio.receiver.snirThreshold 4dB
+param **.wlan[*].radio.transmitter.power 2mW
+param *.host[*].numUdpApps 1
+param *.host[*].udpApp[*].destPort 80
+param *.host[*].udpApp[*].messageLength 1000B
+param *.host[*].udpApp[*].packetName "\"WWW\""
+param *.host[*].udpApp[*].sendInterval 1000s
+param *.host[*].udpApp[*].startTime 1s
+param *.host[*].udpApp[*].stopTime 5000s
+param *.host[*].udpApp[*].typename "\"UDPVirtualForceApp\""
+param *.numHosts 25
+
+vector 21  Net80211test.host[0].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 43  Net80211test.host[1].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 65  Net80211test.host[2].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 87  Net80211test.host[3].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 109  Net80211test.host[4].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 131  Net80211test.host[5].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 153  Net80211test.host[6].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 175  Net80211test.host[7].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 197  Net80211test.host[8].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 219  Net80211test.host[9].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 241  Net80211test.host[10].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 263  Net80211test.host[11].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 285  Net80211test.host[12].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 307  Net80211test.host[13].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 329  Net80211test.host[14].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 351  Net80211test.host[15].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 373  Net80211test.host[16].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 395  Net80211test.host[17].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 417  Net80211test.host[18].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 439  Net80211test.host[19].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 461  Net80211test.host[20].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 483  Net80211test.host[21].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 505  Net80211test.host[22].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 527  Net80211test.host[23].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 549  Net80211test.host[24].wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 17  Net80211test.host[0].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 20  Net80211test.host[0].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 39  Net80211test.host[1].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 42  Net80211test.host[1].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 61  Net80211test.host[2].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 64  Net80211test.host[2].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 83  Net80211test.host[3].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 86  Net80211test.host[3].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 105  Net80211test.host[4].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 108  Net80211test.host[4].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 127  Net80211test.host[5].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 130  Net80211test.host[5].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 149  Net80211test.host[6].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 152  Net80211test.host[6].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 171  Net80211test.host[7].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 174  Net80211test.host[7].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 193  Net80211test.host[8].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 196  Net80211test.host[8].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 215  Net80211test.host[9].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 218  Net80211test.host[9].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 237  Net80211test.host[10].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 240  Net80211test.host[10].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 259  Net80211test.host[11].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 262  Net80211test.host[11].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 281  Net80211test.host[12].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 284  Net80211test.host[12].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 303  Net80211test.host[13].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 306  Net80211test.host[13].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 325  Net80211test.host[14].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 328  Net80211test.host[14].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 347  Net80211test.host[15].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 350  Net80211test.host[15].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 369  Net80211test.host[16].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 372  Net80211test.host[16].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 391  Net80211test.host[17].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 394  Net80211test.host[17].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 413  Net80211test.host[18].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 416  Net80211test.host[18].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 435  Net80211test.host[19].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 438  Net80211test.host[19].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 457  Net80211test.host[20].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 460  Net80211test.host[20].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 479  Net80211test.host[21].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 482  Net80211test.host[21].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 501  Net80211test.host[22].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 504  Net80211test.host[22].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 523  Net80211test.host[23].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 526  Net80211test.host[23].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 545  Net80211test.host[24].wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 548  Net80211test.host[24].wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 18  Net80211test.host[0].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 40  Net80211test.host[1].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 62  Net80211test.host[2].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 84  Net80211test.host[3].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 106  Net80211test.host[4].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 128  Net80211test.host[5].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 150  Net80211test.host[6].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 172  Net80211test.host[7].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 194  Net80211test.host[8].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 216  Net80211test.host[9].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 238  Net80211test.host[10].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 260  Net80211test.host[11].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 282  Net80211test.host[12].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 304  Net80211test.host[13].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 326  Net80211test.host[14].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 348  Net80211test.host[15].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 370  Net80211test.host[16].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 392  Net80211test.host[17].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 414  Net80211test.host[18].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 436  Net80211test.host[19].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 458  Net80211test.host[20].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 480  Net80211test.host[21].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 502  Net80211test.host[22].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 524  Net80211test.host[23].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 546  Net80211test.host[24].wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+17	19116 18 0 0 0 0 2 0 2 2 4
+18	19134 9 0 0 0 0 1 1 1 1 1
+20	19143 9 0 0 0 0 1 0 0 0 0
+21	19152 36 0 0 0 0 4 0 0 0 0
+39	19188 18 0 0 0 0 2 0 2 2 4
+40	19206 9 0 0 0 0 1 1 1 1 1
+42	19215 9 0 0 0 0 1 0 0 0 0
+43	19224 36 0 0 0 0 4 0 0 0 0
+61	19260 18 0 0 0 0 2 0 2 2 4
+62	19278 9 0 0 0 0 1 1 1 1 1
+64	19287 9 0 0 0 0 1 0 0 0 0
+65	19296 36 0 0 0 0 4 0 0 0 0
+83	19332 18 0 0 0 0 2 0 2 2 4
+84	19350 9 0 0 0 0 1 1 1 1 1
+86	19359 9 0 0 0 0 1 0 0 0 0
+87	19368 36 0 0 0 0 4 0 0 0 0
+105	19404 20 0 0 0 0 2 0 2 2 4
+106	19424 10 0 0 0 0 1 1 1 1 1
+108	19434 10 0 0 0 0 1 0 0 0 0
+109	19444 40 0 0 0 0 4 0 0 0 0
+127	19484 20 0 0 0 0 2 0 2 2 4
+128	19504 10 0 0 0 0 1 1 1 1 1
+130	19514 10 0 0 0 0 1 0 0 0 0
+131	19524 40 0 0 0 0 4 0 0 0 0
+149	19564 20 0 0 0 0 2 0 2 2 4
+150	19584 10 0 0 0 0 1 1 1 1 1
+152	19594 10 0 0 0 0 1 0 0 0 0
+153	19604 40 0 0 0 0 4 0 0 0 0
+171	19644 20 0 0 0 0 2 0 2 2 4
+172	19664 10 0 0 0 0 1 1 1 1 1
+174	19674 10 0 0 0 0 1 0 0 0 0
+175	19684 40 0 0 0 0 4 0 0 0 0
+193	19724 20 0 0 0 0 2 0 2 2 4
+194	19744 10 0 0 0 0 1 1 1 1 1
+196	19754 10 0 0 0 0 1 0 0 0 0
+197	19764 40 0 0 0 0 4 0 0 0 0
+215	19804 20 0 0 0 0 2 0 2 2 4
+216	19824 10 0 0 0 0 1 1 1 1 1
+218	19834 10 0 0 0 0 1 0 0 0 0
+219	19844 40 0 0 0 0 4 0 0 0 0
+237	19884 20 0 0 0 0 2 0 2 2 4
+238	19904 10 0 0 0 0 1 1 1 1 1
+240	19914 10 0 0 0 0 1 0 0 0 0
+241	19924 40 0 0 0 0 4 0 0 0 0
+259	19964 20 0 0 0 0 2 0 2 2 4
+260	19984 10 0 0 0 0 1 1 1 1 1
+262	19994 10 0 0 0 0 1 0 0 0 0
+263	20004 40 0 0 0 0 4 0 0 0 0
+281	20044 20 0 0 0 0 2 0 2 2 4
+282	20064 10 0 0 0 0 1 1 1 1 1
+284	20074 10 0 0 0 0 1 0 0 0 0
+285	20084 40 0 0 0 0 4 0 0 0 0
+303	20124 20 0 0 0 0 2 0 2 2 4
+304	20144 10 0 0 0 0 1 1 1 1 1
+306	20154 10 0 0 0 0 1 0 0 0 0
+307	20164 40 0 0 0 0 4 0 0 0 0
+325	20204 20 0 0 0 0 2 0 2 2 4
+326	20224 10 0 0 0 0 1 1 1 1 1
+328	20234 10 0 0 0 0 1 0 0 0 0
+329	20244 40 0 0 0 0 4 0 0 0 0
+347	20284 20 0 0 0 0 2 0 2 2 4
+348	20304 10 0 0 0 0 1 1 1 1 1
+350	20314 10 0 0 0 0 1 0 0 0 0
+351	20324 40 0 0 0 0 4 0 0 0 0
+369	20364 20 0 0 0 0 2 0 2 2 4
+370	20384 10 0 0 0 0 1 1 1 1 1
+372	20394 10 0 0 0 0 1 0 0 0 0
+373	20404 40 0 0 0 0 4 0 0 0 0
+391	20444 20 0 0 0 0 2 0 2 2 4
+392	20464 10 0 0 0 0 1 1 1 1 1
+394	20474 10 0 0 0 0 1 0 0 0 0
+395	20484 40 0 0 0 0 4 0 0 0 0
+413	20524 20 0 0 0 0 2 0 2 2 4
+414	20544 10 0 0 0 0 1 1 1 1 1
+416	20554 10 0 0 0 0 1 0 0 0 0
+417	20564 40 0 0 0 0 4 0 0 0 0
+435	20604 20 0 0 0 0 2 0 2 2 4
+436	20624 10 0 0 0 0 1 1 1 1 1
+438	20634 10 0 0 0 0 1 0 0 0 0
+439	20644 40 0 0 0 0 4 0 0 0 0
+457	20684 20 0 0 0 0 2 0 2 2 4
+458	20704 10 0 0 0 0 1 1 1 1 1
+460	20714 10 0 0 0 0 1 0 0 0 0
+461	20724 40 0 0 0 0 4 0 0 0 0
+479	20764 20 0 0 0 0 2 0 2 2 4
+480	20784 10 0 0 0 0 1 1 1 1 1
+482	20794 10 0 0 0 0 1 0 0 0 0
+483	20804 40 0 0 0 0 4 0 0 0 0
+501	20844 20 0 0 0 0 2 0 2 2 4
+502	20864 10 0 0 0 0 1 1 1 1 1
+504	20874 10 0 0 0 0 1 0 0 0 0
+505	20884 40 0 0 0 0 4 0 0 0 0
+523	20924 20 0 0 0 0 2 0 2 2 4
+524	20944 10 0 0 0 0 1 1 1 1 1
+526	20954 10 0 0 0 0 1 0 0 0 0
+527	20964 40 0 0 0 0 4 0 0 0 0
+545	21004 20 0 0 0 0 2 0 2 2 4
+546	21024 10 0 0 0 0 1 1 1 1 1
+548	21034 10 0 0 0 0 1 0 0 0 0
+549	21044 40 0 0 0 0 4 0 0 0 0
