@@ -255,7 +255,7 @@ void VirtualSpringMobility::updateTotalForce(void) {
                         break;
                     }
                 }
-                else if((angle > (PI / 2)) || (angle < (-(PI / 2)))) {
+                else if((angle > (M_PI / 2)) || (angle < (-(M_PI / 2)))) {
                     acute_angle_result = false;
                     break;
                 }
