@@ -229,6 +229,44 @@ Coord VirtualSpringMobility::calculateSpringForce(Coord unityDirectionVector, do
     return ( u * ((-stiffness) * springDisplacement));
 }
 
+void VirtualSpringMobility::filterNodeListAcuteAngleTest(std::list<NodeBasicInfo> &original, std::list<NodeBasicInfo> &filtered) {
+    Coord myPos = getCurrentPosition();
+
+    filtered.clear();
+
+    for (auto it = original.begin(); it != original.end(); it++) {
+        bool acute_angle_result = true;
+
+        Coord itPos = it->position;
+
+        for (auto check = original.begin(); check != original.end(); check++) {
+            if (check != it) {
+                Coord checkPos = check->position;
+
+                /****************************************/
+                double angle = calculateAngle( myPos, checkPos, itPos );
+
+                if (angle == 0) {
+                    if(     (myPos.distance(checkPos) < myPos.distance(itPos)    ) &&
+                            (itPos.distance(checkPos) < itPos.distance(myPos)    )){
+                        acute_angle_result = false;
+                        break;
+                    }
+                }
+                else if((angle > (M_PI / 2)) || (angle < (-(M_PI / 2)))) {
+                    acute_angle_result = false;
+                    break;
+                }
+                /****************************************/
+            }
+        }
+
+        if (acute_angle_result) {
+            filtered.push_back(*it);
+        }
+    }
+}
+
 void VirtualSpringMobility::updateTotalForce(void) {
     Coord tot = Coord::ZERO;
     std::list <Coord> passActiveForces;

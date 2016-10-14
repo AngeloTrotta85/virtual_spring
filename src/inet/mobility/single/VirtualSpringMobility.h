@@ -34,6 +34,11 @@ public:
         double displacement;
     } ForceInfo;
 
+    typedef struct {
+        int id;
+        Coord position;
+    } NodeBasicInfo;
+
 public:
     VirtualSpringMobility();
 
@@ -68,6 +73,9 @@ public:
 
     /** @brief Set statically a new position */
     void clearVirtualSpringsAndsetPosition(Coord newPos);
+
+    /** @brief Filter the node list by doing the acute angle test */
+    void filterNodeListAcuteAngleTest(std::list<NodeBasicInfo> &original, std::list<NodeBasicInfo> &filtered);
 
 protected:
     virtual int numInitStages() const override { return NUM_INIT_STAGES; }
