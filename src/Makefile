@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for libvirtual-spring
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep --make-so -I/home/angelo/Programs/omnetpp-5.0/samples/inet/src -L/home/angelo/Programs/omnetpp-5.0/samples/inet/out/$$\(CONFIGNAME\)/src -lINET -KINET_PROJ=/home/angelo/Programs/omnetpp-5.0/samples/inet
+#  opp_makemake -f --deep --make-so -I/media/angelo/BigLinux/Programs/OMNeT++/omnetpp-5.0/samples/inet/src -L/media/angelo/BigLinux/Programs/OMNeT++/omnetpp-5.0/samples/inet/out/$$\(CONFIGNAME\)/src -lINET -KINET_PROJ=/media/angelo/BigLinux/Programs/OMNeT++/omnetpp-5.0/samples/inet
 #
 
 # Name of target to be created (-o option)
@@ -40,7 +40,7 @@ MSGFILES =
 SMFILES =
 
 # Other makefile variables (-K)
-INET_PROJ=/home/angelo/Programs/omnetpp-5.0/samples/inet
+INET_PROJ=/media/angelo/BigLinux/Programs/OMNeT++/omnetpp-5.0/samples/inet
 
 #------------------------------------------------------------------------------
 
